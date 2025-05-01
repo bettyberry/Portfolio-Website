@@ -209,7 +209,6 @@ section {
     transition: var(--transition);
 }
 
-/* ===== Hero Section ===== */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -445,7 +444,6 @@ section {
     margin-top: 50px;
 }
 
-/* ===== About Section ===== */
 .about-content {
     display: flex;
     align-items: center;
@@ -683,7 +681,6 @@ section {
     font-size: 0.9rem;
 }
 
-/* ===== Back to Top Button ===== */
 .back-to-top {
     position: fixed;
     bottom: 30px;
@@ -714,7 +711,6 @@ section {
     transform: translateY(-5px);
 }
 
-/* ===== Animations ===== */
 @keyframes wave {
     0% { transform: rotate(0deg); }
     10% { transform: rotate(14deg); }
