@@ -1,4 +1,3 @@
-/* ===== Variables ===== */
 :root {
     --primary: #8a2be2;
     --primary-light: #a855f7;
@@ -17,7 +16,6 @@
     --border-radius: 8px;
 }
 
-/* ===== Base Styles ===== */
 * {
     margin: 0;
     padding: 0;
@@ -118,7 +116,6 @@ section {
     box-shadow: var(--glow);
 }
 
-/* ===== Navigation ===== */
 .header {
     position: fixed;
     top: 0;
@@ -274,7 +271,6 @@ section {
     transform-origin: 70% 70%;
 }
 
-/* ===== Services Section ===== */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -337,7 +333,6 @@ section {
     font-weight: 500;
 }
 
-/* ===== Projects Section ===== */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -534,7 +529,6 @@ section {
     color: var(--primary);
 }
 
-/* ===== Contact Section ===== */
 .contact-content {
     display: flex;
     flex-direction: row-reverse;
@@ -647,7 +641,6 @@ section {
     box-shadow: 0 5px 15px rgba(138, 43, 226, 0.3);
 }
 
-/* ===== Footer ===== */
 .footer {
     background-color: var(--dark);
     padding: 30px 0;
@@ -738,7 +731,6 @@ section {
     to { opacity: 1; }
 }
 
-/* ===== Responsive Styles ===== */
 @media (max-width: 992px) {
     .hero-content {
         flex-direction: column-reverse;
