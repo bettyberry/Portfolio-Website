@@ -1,4 +1,3 @@
-/* ===== Variables ===== */
 :root {
     --primary: #8a2be2;
     --primary-light: #a855f7;
@@ -17,7 +16,6 @@
     --border-radius: 8px;
 }
 
-/* ===== Base Styles ===== */
 * {
     margin: 0;
     padding: 0;
