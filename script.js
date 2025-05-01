@@ -1,3 +1,4 @@
+/* ===== Variables ===== */
 :root {
     --primary: #8a2be2;
     --primary-light: #a855f7;
@@ -16,6 +17,7 @@
     --border-radius: 8px;
 }
 
+/* ===== Base Styles ===== */
 * {
     margin: 0;
     padding: 0;
@@ -811,6 +813,7 @@ section {
         font-size: 1.25rem;
     }
 }
+
 @media (max-width: 576px) {
     .hero-cta {
         flex-direction: column;
@@ -828,5 +831,4 @@ section {
     .projects-grid {
         grid-template-columns: 1fr;
     }
-
 }
